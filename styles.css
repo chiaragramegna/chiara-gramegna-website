@@ -62,8 +62,6 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 .about-content h2, .publications-heading h2, .profiles h2 { font-family: var(--serif); font-size: 51px; font-weight: 400; letter-spacing: 0; line-height: 1.05; margin: 0; max-width: 590px; }
 .about-text { align-self: end; padding-bottom: 3px; }
 .about-text p { color: #525c54; font-size: 13px; line-height: 1.85; margin: 0 0 21px; max-width: 430px; }
-.about-profile { align-items: center; display: flex; gap: 15px; margin-top: 16px; }
-.about-portrait { display: block; height: 72px; object-fit: cover; width: 72px; }
 .research-story { border-top: 1px solid var(--line); display: grid; gap: 14px 6%; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 25px; padding-top: 19px; }
 .research-story p { color: #525c54; font-size: 13px; line-height: 1.7; margin: 0; }
 .research-story p:first-child { grid-column: 1 / -1; }
