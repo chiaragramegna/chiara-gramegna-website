@@ -18,24 +18,6 @@ siteNav.addEventListener('click', (event) => {
   }
 });
 
-const publicationList = document.querySelector('.publication-list');
-const publicationEntries = Array.from(publicationList.querySelectorAll('.publication'));
-const priorityPattern = /aggression|transcranial|tdcs|resting-state functional connectivity|paired associative stimulation|neuromodulation|neuroimaging/i;
-
-publicationEntries
-  .map((entry, index) => {
-    const [year, month = 0, day = 0] = entry.dataset.date.split('-').map(Number);
-
-    return {
-      entry,
-      index,
-      date: year * 10000 + month * 100 + day,
-      priority: priorityPattern.test(entry.querySelector('.publication-main h3').textContent) ? 1 : 0
-    };
-  })
-  .sort((first, second) => second.date - first.date || second.priority - first.priority || first.index - second.index)
-  .forEach(({ entry }) => publicationList.append(entry));
-
 const revealTargets = document.querySelectorAll(
   '.hero-copy > *, .hero-visual, .section-label, .about-content, .thread, .publication, .profiles-inner'
 );

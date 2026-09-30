@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect x="2" y="2" width="44" height="44" rx="9" fill="#174f3d"/>
+  <g fill="none" stroke="#c8e18c" stroke-linecap="round" stroke-width="2.5">
+    <path d="M24 24 13 14m11 10 12-10M24 24 12 33m12-9 13 10M24 24v15"/>
+  </g>
+  <g fill="#f4f6f1" stroke="#174f3d" stroke-width="1.5">
+    <circle cx="24" cy="24" r="4.5"/>
+    <circle cx="13" cy="14" r="3"/>
+    <circle cx="36" cy="14" r="3"/>
+    <circle cx="12" cy="33" r="3"/>
+    <circle cx="36" cy="34" r="3"/>
+    <circle cx="24" cy="39" r="3"/>
+  </g>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect x="2" y="2" width="44" height="44" rx="9" fill="#174f3d"/>
+  <g fill="none" stroke="#c8e18c" stroke-linecap="round" stroke-width="2.5">
+    <path d="M24 24 13 14m11 10 12-10M24 24 12 33m12-9 13 10M24 24v15"/>
+  </g>
+  <g fill="#f4f6f1" stroke="#174f3d" stroke-width="1.5">
+    <circle cx="24" cy="24" r="4.5"/>
+    <circle cx="13" cy="14" r="3"/>
+    <circle cx="36" cy="14" r="3"/>
+    <circle cx="12" cy="33" r="3"/>
+    <circle cx="36" cy="34" r="3"/>
+    <circle cx="24" cy="39" r="3"/>
+  </g>
+</svg>
