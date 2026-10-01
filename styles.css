@@ -70,7 +70,7 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 .research-interests { border-top: 1px solid var(--line); display: grid; gap: 24px; grid-template-columns: 155px 1fr; margin-top: 20px; padding-top: 15px; }
 .research-interests h3 { color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: 1.1px; margin: 2px 0 0; text-transform: uppercase; }
 .interest-list { align-items: flex-start; display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
-.interest-list li { border: 1px solid var(--line); color: #525c54; font-size: 11px; line-height: 1.4; padding: 7px 10px; }
+.interest-list li { border: 1px solid var(--line); color: #525c54; font-size: 12px; line-height: 1.4; padding: 8px 12px; }
 .research-note { border-top: 1px solid var(--line); color: var(--muted); font-family: var(--serif); font-size: 15px; margin: 18px 0 0; padding-top: 13px; }
 .underlined-link { display: inline-block; }
 .research-threads { border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); }
@@ -199,7 +199,7 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
   .awards-note { font-size: 10px; margin-top: 18px; }
   .research-interests { gap: 7px; grid-template-columns: 1fr; margin-top: 16px; padding-top: 12px; }
   .interest-list { gap: 7px; }
-  .interest-list li { font-size: 10px; padding: 7px 9px; }
+  .interest-list li { font-size: 11px; padding: 8px 10px; }
   .research-threads { grid-template-columns: 1fr; }
   .thread { border-bottom: 1px solid var(--line); border-right: 0; grid-template-columns: 25px 1fr 16px; min-height: 0; padding: 17px 0; }
   .thread + .thread { padding-left: 0; }
