@@ -91,14 +91,14 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 .cv-metric { display: flex; flex-direction: column; gap: 7px; min-height: 118px; padding: 19px 18px 16px 0; }
 .cv-metric + .cv-metric { border-left: 1px solid var(--line); padding-left: 19px; }
 .cv-metric strong { color: var(--green); font-family: var(--serif); font-size: 36px; font-weight: 400; line-height: 1; }
-.cv-metric span { color: var(--muted); font-size: 10px; line-height: 1.5; max-width: 170px; }
+.cv-metric span { color: var(--muted); font-size: 12px; line-height: 1.5; max-width: 170px; }
 .cv-columns { display: grid; gap: 8%; grid-template-columns: 1fr 1fr; margin-top: 53px; }
-.cv-column-title { font-size: 10px; font-weight: 600; letter-spacing: 1.2px; margin: 0 0 18px; text-transform: uppercase; }
+.cv-column-title { font-size: 11px; font-weight: 600; letter-spacing: 1.2px; margin: 0 0 18px; text-transform: uppercase; }
 .cv-entry { border-top: 1px solid var(--line); display: grid; gap: 12px; grid-template-columns: 65px 1fr; padding: 15px 0 16px; }
 .cv-entry:last-child { border-bottom: 1px solid var(--line); }
-.cv-date, .cv-skill-index { color: var(--coral); font-size: 10px; padding-top: 3px; }
+.cv-date, .cv-skill-index { color: var(--coral); font-size: 11px; padding-top: 3px; }
 .cv-entry h4, .cv-skill h4 { font-family: var(--serif); font-size: 18px; font-weight: 400; line-height: 1.25; margin: 0 0 6px; }
-.cv-entry p, .cv-skill p, .cv-highlights p { color: var(--muted); font-size: 10px; line-height: 1.65; margin: 4px 0 0; }
+.cv-entry p, .cv-skill p, .cv-highlights p { color: var(--muted); font-size: 12px; line-height: 1.65; margin: 4px 0 0; }
 .cv-methods { border-left: 1px solid var(--line); padding-left: 8%; }
 .cv-skill { border-top: 1px solid var(--line); display: grid; gap: 12px; grid-template-columns: 18px 1fr; padding: 15px 0 16px; }
 .cv-skill:last-child { border-bottom: 1px solid var(--line); }
@@ -217,7 +217,7 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
   .cv-metric + .cv-metric { padding-left: 12px; }
   .cv-metric:nth-child(3) { border-left: 0; padding-left: 0; }
   .cv-metric strong { font-size: 31px; }
-  .cv-metric span { font-size: 9px; }
+  .cv-metric span { font-size: 11px; }
   .cv-columns { grid-template-columns: 1fr; margin-top: 38px; row-gap: 32px; }
   .cv-methods { border-left: 0; border-top: 1px solid var(--line); margin-top: 0; padding: 30px 0 0; }
   .cv-entry { grid-template-columns: 58px 1fr; }
