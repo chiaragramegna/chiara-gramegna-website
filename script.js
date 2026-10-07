@@ -18,6 +18,29 @@ siteNav.addEventListener('click', (event) => {
   }
 });
 
+const publicationList = document.querySelector('.publication-list');
+
+if (publicationList) {
+  const sortPublications = () => {
+    const items = Array.from(publicationList.querySelectorAll('.publication'));
+
+    const parseDate = (dateValue) => {
+      if (!dateValue) return new Date(0);
+
+      if (/^\d{4}$/.test(dateValue)) return new Date(`${dateValue}-01-01T00:00:00Z`);
+      if (/^\d{4}-\d{2}$/.test(dateValue)) return new Date(`${dateValue}-01T00:00:00Z`);
+
+      return new Date(`${dateValue}T00:00:00Z`);
+    };
+
+    items
+      .sort((a, b) => parseDate(b.dataset.date) - parseDate(a.dataset.date))
+      .forEach((item) => publicationList.appendChild(item));
+  };
+
+  sortPublications();
+}
+
 const revealTargets = document.querySelectorAll(
   '.hero-copy > *, .hero-visual, .section-label, .about-content, .thread, .publication, .profiles-inner'
 );
