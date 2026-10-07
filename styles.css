@@ -15,7 +15,7 @@
 * { box-sizing: border-box; }
 h1, h2, h3, h4 { text-transform: capitalize; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
 .inline-link { border-bottom: 1px solid currentColor; color: var(--green); transition: color 180ms ease; }
 .inline-link:hover { color: var(--coral); }
@@ -61,9 +61,9 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 .about-content { display: grid; gap: 10%; grid-template-columns: 1.05fr .75fr; margin: 49px 0 30px; }
 .about-content h2, .publications-heading h2, .profiles h2 { font-family: var(--serif); font-size: 51px; font-weight: 400; letter-spacing: 0; line-height: 1.05; margin: 0; max-width: 590px; }
 .about-text { align-self: end; padding-bottom: 3px; }
-.about-text p { color: #525c54; font-size: 14px; line-height: 1.85; margin: 0 0 21px; max-width: 430px; }
+.about-text p { color: #525c54; font-size: 15px; line-height: 1.85; margin: 0 0 21px; max-width: 430px; }
 .research-story { border-top: 1px solid var(--line); display: grid; gap: 14px 6%; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 25px; padding-top: 19px; }
-.research-story p { color: #525c54; font-size: 14px; line-height: 1.7; margin: 0; }
+.research-story p { color: #525c54; font-size: 15px; line-height: 1.7; margin: 0; }
 .research-story p:first-child { grid-column: 1 / -1; }
 .awards-note { border-left: 2px solid var(--coral); color: var(--muted); font-size: 12px; line-height: 1.6; margin: 22px 0 0; padding: 3px 0 3px 12px; }
 .awards-note strong { color: var(--ink); }
@@ -84,7 +84,7 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 
 .cv-section { border-top: 1px solid var(--line); padding-bottom: 96px; padding-top: 56px; }
 .cv-heading { align-items: end; display: flex; justify-content: space-between; margin: 43px 0 39px; }
-.cv-heading h2 { font-family: var(--serif); font-size: 49px; font-weight: 400; letter-spacing: 0; line-height: 1.05; margin: 0; }
+.cv-heading h2 { font-family: var(--serif); font-size: 52px; font-weight: 400; letter-spacing: 0; line-height: 1.05; margin: 0; }
 .cv-heading > div > p { color: var(--muted); font-size: 12px; margin: 13px 0 0; }
 .cv-affiliation { color: var(--muted); font-size: 9px; letter-spacing: 1px; padding-bottom: 5px; text-transform: uppercase; }
 .cv-metrics { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, 1fr); }
@@ -92,19 +92,19 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
 .cv-metric + .cv-metric { border-left: 1px solid var(--line); padding-left: 19px; }
 .cv-metric strong { color: var(--green); font-family: var(--serif); font-size: 36px; font-weight: 400; line-height: 1; }
 .cv-metric span { color: var(--muted); font-size: 12px; line-height: 1.5; max-width: 170px; }
-.cv-columns { display: grid; gap: 8%; grid-template-columns: 1fr 1fr; margin-top: 53px; }
-.cv-column-title { font-size: 11px; font-weight: 600; letter-spacing: 1.2px; margin: 0 0 18px; text-transform: uppercase; }
-.cv-entry { border-top: 1px solid var(--line); display: grid; gap: 12px; grid-template-columns: 65px 1fr; padding: 15px 0 16px; }
+.cv-columns { display: grid; gap: 6%; grid-template-columns: 1.08fr 0.92fr; margin-top: 53px; }
+.cv-column-title { font-size: 12px; font-weight: 600; letter-spacing: 1.2px; margin: 0 0 18px; text-transform: uppercase; }
+.cv-entry { border-top: 1px solid var(--line); display: grid; gap: 14px; grid-template-columns: 65px 1fr; padding: 17px 0 18px; }
 .cv-entry:last-child { border-bottom: 1px solid var(--line); }
 .cv-date, .cv-skill-index { color: var(--coral); font-size: 11px; padding-top: 3px; }
-.cv-entry h4, .cv-skill h4 { font-family: var(--serif); font-size: 18px; font-weight: 400; line-height: 1.25; margin: 0 0 6px; }
-.cv-entry p, .cv-skill p, .cv-highlights p { color: var(--muted); font-size: 12px; line-height: 1.65; margin: 4px 0 0; }
+.cv-entry h4, .cv-skill h4 { font-family: var(--serif); font-size: 20px; font-weight: 500; line-height: 1.25; margin: 0 0 6px; }
+.cv-entry p, .cv-skill p, .cv-highlights p { color: var(--muted); font-size: 14px; font-weight: 500; line-height: 1.7; margin: 4px 0 0; }
 .cv-methods { border-left: 1px solid var(--line); padding-left: 8%; }
-.cv-skill { border-top: 1px solid var(--line); display: grid; gap: 12px; grid-template-columns: 18px 1fr; padding: 15px 0 16px; }
+.cv-skill { border-top: 1px solid var(--line); display: grid; gap: 12px; grid-template-columns: 18px 1fr; padding: 17px 0 18px; }
 .cv-skill:last-child { border-bottom: 1px solid var(--line); }
-.cv-highlights { border-top: 1px solid var(--line); display: grid; gap: 6%; grid-template-columns: 1fr 1.35fr .8fr; margin-top: 55px; padding-top: 22px; }
-.cv-highlights h3 { font-family: var(--serif); font-size: 20px; font-weight: 400; margin: 0 0 12px; }
-.cv-highlights strong { color: var(--ink); font-weight: 600; }
+.cv-highlights { border-top: 1px solid var(--line); display: grid; gap: 5%; grid-template-columns: 0.9fr 1.4fr 0.75fr; margin-top: 58px; padding-top: 24px; }
+.cv-highlights h3 { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 0 0 12px; }
+.cv-highlights strong { color: var(--ink); font-weight: 700; }
 
 .publications { background: #e9eee6; padding-bottom: 108px; padding-top: 92px; }
 .publications-heading { align-items: end; display: flex; justify-content: space-between; margin: 45px 0 31px; }
@@ -223,7 +223,7 @@ h1 .hero-surname { color: var(--green); font-style: normal; font-weight: 400; }
   .cv-methods { border-left: 0; border-top: 1px solid var(--line); margin-top: 0; padding: 30px 0 0; }
   .cv-entry { grid-template-columns: 58px 1fr; }
   .cv-entry h4, .cv-skill h4 { font-size: 17px; }
-  .cv-highlights { gap: 23px; grid-template-columns: 1fr; margin-top: 38px; }
+  .cv-highlights { gap: 18px; grid-template-columns: 1fr; margin-top: 38px; }
   .cv-highlights h3 { margin-bottom: 8px; }
   .publications { padding-bottom: 73px; padding-top: 69px; }
   .publications-heading { align-items: flex-start; flex-direction: column; gap: 18px; margin: 34px 0 24px; }
